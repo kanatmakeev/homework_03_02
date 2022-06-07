@@ -30,3 +30,11 @@ for (let i = 0; i < value.length; i++) {
     console.log(num3);
   }
 }
+
+// task4
+// Дан массив [1,2,45,"hello", 233, 100, "world", 45]. 
+// Переберите массив так чтоб у вас в консоли были только числа.
+
+let value2 = [1, 2, 45, "hello", 233, 100, "world", 45];
+
+console.log(value2.filter(item => typeof item === "number"));
