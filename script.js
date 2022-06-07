@@ -38,3 +38,14 @@ for (let i = 0; i < value.length; i++) {
 let value2 = [1, 2, 45, "hello", 233, 100, "world", 45];
 
 console.log(value2.filter(item => typeof item === "number"));
+
+// task5
+// Составьте массив дней недели. С помощью цикла выведите выходные дни в консоль.
+
+let day = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница','суббота', 'воскресенье'];
+ 
+for (let i = 0; i < day.length; i++) {
+    if (day[i] == 'суббота' || day[i] == 'воскресенье') {
+        console.log(day[i]);
+    }
+ }
